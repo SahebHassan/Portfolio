@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Sahebhassan's component library</h1>
@@ -19,16 +20,18 @@
     <small> this is relatively samllest text.</small>
     <hr>
     <h2>@container</h2>
+
     <h3>fluid container</h3>
-    <div>this is fluid container and it will go till the end of the page</div>
+
+    <div class="container container-fluid">this is fluid container and it will go till the end of the page</div>
     <h3>center container</h3>
-    <div> this is centered container and it will go till the specified width and done by css part.</div>
+    <div class="container container-center"> this is centered container and it will go till the specified width and done by css part. </div>
     
     <hr>
 
     <h2>@links</h2>
-    <a href="?">primary Link</a>
-    <a href="/">secondary Link</a>
+    <a class="" href="?">primary Link</a>
+    <a class="" href="/">secondary Link</a>
 
     <hr>
 
@@ -46,6 +49,67 @@
         <li>Inline List Two</li>
         <li>Inline List Three</li>
     </ul>
+
+    <hr>
+    
+    <h2>@nav</h2>
+    <nav>
+        <div>iAmBrand</div>
+        <ul>
+            <li>
+                <a class="" href="/">Home</a>
+            </li>
+            <li>
+                <a class="" href="/">Product</a>
+                </li>
+            <li>
+                <a class="" href="/">About</a>
+                </li>
+        </ul>
+
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+    <header>
+        <img src="images\Header.svg">
+        <h1>heading inside header</h1>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    
+    <section>
+        <h3>white section</h3>
+        
+        <p>this will have white background</p>
+        
+        <h3>off white section</h3>
+        <p>this will have gray background</p>
+       
+    </section>
+    
+    <hr>
+
+    <h2>@footer</h2>
+    
+    <footer>
+        <div>some small heading inside footer</div>
+    <ul>
+        <li>Socialone</li>
+        <li>SocialTwo</li>
+        <li>SocialThree</li>
+    </ul>
+</footer>
+
+
+
+
+
+
+    
     
 </body>
 </html>
