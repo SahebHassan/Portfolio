@@ -31,40 +31,43 @@
 
     <h2>@links</h2>
     
-    <a  class="link primary-link" href="?">Primary Link</a>
-    <a  class="link secondary-link" href="/">secondary Link</a>
+    <a  class="link link-primary" href="?">Primary Link</a>
+    <a  class="link link-secondary" href="/">secondary Link</a>
 
-    <hr class="break">
+    <hr>
 
     <h2>@lists</h2>
+
     <h3>unordered List</h3>
-    <ul>
+    
+    <ul class="list-non-bullet">
         <li>List One </li>
         <li>List Two </li>
         <li>List Three </li>
     </ul>
 
     <h3>undordered inline list(done by CSS part)</h3>
-    <ul>
-        <li>Inline List One</li>
-        <li>Inline List Two</li>
-        <li>Inline List Three</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline List One</li>
+        <li class="list-item-inline">Inline List Two</li>
+        <li class="list-item-inline">Inline List Three</li>
     </ul>
 
     <hr>
     
     <h2>@nav</h2>
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a class="" href="/">Home</a>
+
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a class="" href="/">Product</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">Product</a>
                 </li>
-            <li>
-                <a class="" href="/">About</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">About</a>
                 </li>
         </ul>
 
