@@ -8,123 +8,71 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Sahebhassan's component library</h1>
-    <p>i am attending neog.camp and i want to make library which would make all my project lokk good and consistent.</p>
-    
-    <hr>
-
-    <h2>@typography</h2>
-    <h1> this is biggest heading</h1>
-    <h2>this is the second biggest heading</h2>
-    <p>let me show you the normal text.This is free flowing and will wrapat the end like a paragraph.</p>
-    <small> this is relatively samllest text.</small>
-    <hr>
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-
-    <div class="container container-fluid">this is fluid container and it will go till the end of the page</div>
-    <h3>center container</h3>
-    <div class="container container-center"> this is centered container and it will go till the specified width and done by css part. </div>
-    
-    <hr>
-
-    <h2>@links</h2>
-    
-    <a  class="link link-primary" href="?">Primary Link</a>
-    <a  class="link link-secondary" href="/">secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>unordered List</h3>
-    
-    <ul class="list-non-bullet">
-        <li>List One </li>
-        <li>List Two </li>
-        <li>List Three </li>
-    </ul>
-
-    <h3>undordered inline list(done by CSS part)</h3>
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline List One</li>
-        <li class="list-item-inline">Inline List Two</li>
-        <li class="list-item-inline">Inline List Three</li>
-    </ul>
-
-    <hr>
-    
-    <h2>@nav</h2>
-
     <nav class="navigation container">
-        <div class="nav-brand">iAmBrand</div>
+        <div class="nav-brand"><a class="navigation link-brand" href="index.html"> iAmBrand</a></div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link link-active" href="/">Home</a>
+                <a class="link link-active" href="index.html">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">Product</a>
+                <a class="link" href="project.html">Project</a>
                 </li>
             <li class="list-item-inline">
-                <a class="link" href="/">About</a>
+                <a class="link" href="blogs.html">Blogs</a>
                 </li>
         </ul>
 
     </nav>
-
-    <hr>
-
-    <h2>@header</h2>
 
     <header class="hero">
         <img class="hero-img" src="images\Header.svg">
         <h1 class="hero-heading">Saheb Hassan the <span class="heading-inverted">web developer</span></h1>
     </header>
 
-    <hr>
+    <section class="section ow">
+        <div class="container container-center">
 
-    <h2>@section</h2>
-    
- <section class="section">
-    <div class="container container-center">
-        <h3>white section</h3>
-        <p>this will have white background</p>
-        
-    </div>
- </section>
+        <h3>Technologies</h3>
+        <p>I'm fimiliar with HTML5,CSS3,Git,Javascript,NodeJS,ReactJS,and Web Hosting</p>
+       </div>
+    </section>
+
+    <section class="section">
+        <div class="container container-center">
+            <h3>Project</h3>
+            <p>I like to showcase my work and thus you can see my project hosted online</p>
+            <a  class="link link-primary" href="project.html">See Projects</a>
+            
+        </div>
+     </section>
 
      <section class="section ow">
         <div class="container container-center">
 
-        <h3>off white section</h3>
-        <p>this will have gray background</p>
+        <h3>Blogs</h3>
+        <p>I'm also working on some technical and non-technical blogs i like to document my journey of learning</p>
+        <a  class="link link-secondary" href="blogs.html">Read Blogs</a>
+
        </div>
     </section>
-    
-    <hr>
 
-    <h2>@footer</h2>
-    
     <footer class="footer">
-        <div class="footer-heading">some small heading inside footer</div>
+        <div class="footer-heading">Social Media Presence </div>
     <ul class="link">
         <li class="list-item-inline">
-            <a class="link" href="">Socialone</a>
+            <a class="link" href="https://github.com/SahebHassan">gitHub</a>
         </li>
         <li class="list-item-inline">
-            <a class="link" href="">SocialTwo
+            <a class="link" href="https://twitter.com/Sahebhassan2">twitter
 
             </a>
         </li>
         <li class="list-item-inline">
-            <a class="link" href="">SocialThree</a>
+            <a class="link" href="https://www.linkedin.com/in/saheb-hassan-785a64175/">linkedIn</a>
         </li>
     </ul>
 
 </footer>
-
-
 
 
 
