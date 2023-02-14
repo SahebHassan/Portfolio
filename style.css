@@ -132,4 +132,12 @@ body{
   font-weight: bold;
 }
 
-
+.blog{
+  text-align: center;
+  padding: 2rem 2rem;
+}
+.dummy{
+  max-width: 900px;
+  margin: auto;
+  padding-bottom: 3rem ;
+}
